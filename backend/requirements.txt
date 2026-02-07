@@ -1,0 +1,41 @@
+# ==========================================
+# Yetria Career Guidance Platform
+# Backend Dependencies
+# ==========================================
+
+# ===== WEB FRAMEWORK =====
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# ===== DATABASE =====
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.10 # PostgreSQL adapter (EKLENDI)
+
+# ===== AUTHENTICATION & SECURITY =====
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.3.0
+bcrypt==4.3.0
+
+# ===== DATA VALIDATION =====
+pydantic[email]==2.5.0
+email-validator==2.3.0
+
+# ===== UTILITIES =====
+python-dotenv==1.1.1
+
+# ===== DATA PROCESSING =====
+pandas==2.3.2
+numpy==2.0.2
+scikit-learn==1.6.1
+
+# ===== MACHINE LEARNING MODELS =====
+lightgbm==4.6.0
+catboost==1.2.8
+
+# ===== MODEL PERSISTENCE =====
+joblib==1.5.1
+
+# ===== VISUALIZATION (for ML training) =====
+matplotlib==3.9.4
+seaborn==0.13.2
